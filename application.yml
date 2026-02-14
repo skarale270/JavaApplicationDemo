@@ -1,0 +1,5 @@
+spring:
+    data:
+        mongodb:
+            uri: mongodb+srv://karalesuraj27416_db_user:karalesuraj27416_db_user@cluster0.ywqrzyh.mongodb.net
+            database: java
