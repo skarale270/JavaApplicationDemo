@@ -12,19 +12,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemoProjectApplication {
 
 	public static void main(String[] args) {
-
-        // Replace the placeholder with your MongoDB deployment's connection string
-//        String uri = "mongodb+srv://karalesuraj27416_db_user:karalesuraj27416_db_user@cluster0.ywqrzyh.mongodb.net/?appName=Cluster0";
-//        try (MongoClient mongoClient = MongoClients.create(uri)) {
-//            MongoDatabase database = mongoClient.getDatabase("java");
-//            MongoCollection<Document> collection = database.getCollection("user");
-//            Document doc = (Document) collection.find(eq("title", "Back to the Future")).first();
-//            if (doc != null) {
-//                System.out.println(doc.toJson());
-//            } else {
-//                System.out.println("No matching documents found.");
-//            }
-//        }
         SpringApplication.run(DemoProjectApplication.class, args);
 	}
 
